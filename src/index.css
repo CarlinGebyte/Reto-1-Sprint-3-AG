@@ -6,4 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: hsl(218, 28%, 13%) !important;
+  /* color: hsl(218, 28%, 90%) !important; */
+  color: #fff;
 }

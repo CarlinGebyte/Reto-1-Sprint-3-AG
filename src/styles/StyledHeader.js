@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
   display: flex;
-  padding: 20px;
+  padding: 20px 5%;
   align-items: center;
   justify-content: space-between;
   /* width: 100%; */
@@ -19,6 +19,9 @@ export const HeaderContainer = styled.header`
         font-weight: bold;
         padding: 1rem;
         transition: all 0.3s ease-in-out;
+        &:last-child {
+          padding-right: 0;
+        }
         &:hover {
           color: #000;
         }

@@ -5,7 +5,10 @@ function Header() {
   return (
     <HeaderContainer>
       <div>
-        <img src="" alt="logo"></img>
+        <img width={"100%"}
+          src="https://raw.githubusercontent.com/CarlinGebyte/Reto-1-Sprint-3-AG/cf0c047f5a6abe826366f7de423b7d04b8fa88b6/src/assets/img/logo.svg"
+          alt="logo"
+        ></img>
       </div>
       <div>
         <ul>
