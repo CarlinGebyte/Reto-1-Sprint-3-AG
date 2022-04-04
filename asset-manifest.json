@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Reto-1-Sprint-3-AG/static/css/main.83ec0a13.css",
+    "main.js": "/Reto-1-Sprint-3-AG/static/js/main.7ea9297d.js",
+    "index.html": "/Reto-1-Sprint-3-AG/index.html",
+    "main.83ec0a13.css.map": "/Reto-1-Sprint-3-AG/static/css/main.83ec0a13.css.map",
+    "main.7ea9297d.js.map": "/Reto-1-Sprint-3-AG/static/js/main.7ea9297d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83ec0a13.css",
+    "static/js/main.7ea9297d.js"
+  ]
+}
