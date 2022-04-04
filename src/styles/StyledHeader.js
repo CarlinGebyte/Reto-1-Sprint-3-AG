@@ -6,13 +6,12 @@ export const HeaderContainer = styled.header`
   align-items: center;
   justify-content: space-between;
   #navbar {
-    width: 60%;
+    width: 100%;
     text-align: right;
     display: flex;
     justify-content: right;
   }
   ul {
-    width: 70%;
     padding: 0;
     display: flex;
     align-items: center;

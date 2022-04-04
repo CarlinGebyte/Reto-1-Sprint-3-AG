@@ -3,6 +3,9 @@ import { Button } from "../styles/Button";
 import { EarlyContainer } from "../styles/EarlyAccesStyles";
 
 function EarlyAccess() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
   return (
     <EarlyContainer>
       <h1>Get early access today</h1>
@@ -11,8 +14,13 @@ function EarlyAccess() {
         generous. If you have any questions, our support team would be happy to
         help you.
       </p>
-      <form>
-        <input type="text" placeholder="Email address" />
+      <form onSubmit={handleSubmit}>
+        <input
+          type="email"
+          placeholder="Email address"
+          pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+          required
+        />
         <Button>Get Started For Free</Button>
       </form>
     </EarlyContainer>

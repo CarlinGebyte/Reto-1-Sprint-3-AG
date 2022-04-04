@@ -3,9 +3,14 @@ import styled from "styled-components";
 export const CardsContainer = styled.div`
   display: flex;
   justify-content: center;
-  padding: 0 5%;
+  padding: 2% 5%;
+  background-image: url(https://raw.githubusercontent.com/CarlinGebyte/Reto-1-Sprint-3-AG/main/src/assets/img/bg-quotes.png);
+  background-repeat: no-repeat;
+  background-position: 3% 5%;
+
   @media (max-width: 768px) {
     flex-direction: column;
+    background-position: 3% 0;
   }
 `;
 
