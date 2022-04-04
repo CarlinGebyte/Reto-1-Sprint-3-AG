@@ -10,7 +10,7 @@ function Header() {
           alt="logo"
         ></img>
       </div>
-      <div>
+      <div id="navbar">
         <ul>
           <li>
             <a href="#features">Features</a>

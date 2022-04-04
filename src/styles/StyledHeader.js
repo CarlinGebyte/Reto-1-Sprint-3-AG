@@ -5,26 +5,39 @@ export const HeaderContainer = styled.header`
   padding: 20px 5%;
   align-items: center;
   justify-content: space-between;
-  /* width: 100%; */
+  #navbar {
+    width: 60%;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+  }
   ul {
+    width: 70%;
+    padding: 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: right;
     list-style: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 0 10%;
     li {
-      a {
+      margin: 0 10px;
+    }
+    a {
+      color: #ccc;
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+      &:last-child {
+        padding-right: 0;
+      }
+      &:hover {
         color: #fff;
-        text-decoration: none;
-        font-size: 14px;
-        font-weight: bold;
-        padding: 1rem;
-        transition: all 0.3s ease-in-out;
-        &:last-child {
-          padding-right: 0;
-        }
-        &:hover {
-          color: #000;
-        }
+      }
+    }
+    @media (max-width: 768px) {
+      ul {
+        width: 100% !important;
       }
     }
   }
